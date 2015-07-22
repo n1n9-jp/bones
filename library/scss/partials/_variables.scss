@@ -17,31 +17,53 @@ Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
 
-$alert-yellow:      #ebe16f;
-$alert-red:         #fbe3e4;
-$alert-green:       #e6efc2;
-$alert-blue:        #d5edf8;
+/*
+colors
+borrowed from http://clrs.cc/
+*/
 
-$black:             #323944;
-$white:             #fff;
+// Cool
 
-$light-gray:        #f8f9fa;
-$gray:              #eaedf2;
-$text-color:        #5c6b80;
-$meta-gray:         #9fa6b4;
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
 
-$tan:               #eceee5;
+// Warm
 
-$green:             #7dd667;
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
 
-$bones-pink:        #f01d4f;
-$blue:              #2980b9;
+// Gray Scale
 
-$link-color:        $bones-pink;
-$link-hover:        darken($link-color, 9%);
+$white:  #fff;
+$silver: #ddd;
+$light-gray:	#aaa;
+$dark-gray:		#666;
+$black:  #111;
 
-$border-color:      #ccc;
-$disabled-gray:     #cfcfcf;
+
+/* functions */
+
+$text-color:		$dark-gray;
+$link-color:        $fuchsia;
+$link-hover:        darken($link-color, 10%);
+
+$bg-color:			$silver;
+$border-color:      $light-gray;
+$disabled-gray:     $silver;
+
+$alert-blue:		$blue;
+$alert-yellow:		$yellow;
+$alert-red:			$red;
+$alert-green:		$green;
 
 
 /*
